@@ -133,6 +133,12 @@ body {
     align-items: center;
 }
 
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .features-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -184,6 +190,7 @@ body {
 .exp-button {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 342px;
     height: 200px;
     border: none;
@@ -199,10 +206,59 @@ body {
     text-align: center;
 }
 
-.exp-button-t2{
+.exp-button-t2 {
     font-weight: 500;
     font-size: 25px;
     color: #FFFFFF;
     margin: 0 auto;
     text-align: center;
+}
+
+.fact {
+    width: 1440px;
+}
+
+.fact-section {
+    width: 542px;
+}
+
+.fact-section-card {
+    display: flex;
+    justify-content: space-around;
+}
+.fact-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.fact-section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-section-t1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact-1-t1 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 0;
+}
+
+.fact-1-t2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0;
 }
