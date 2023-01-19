@@ -425,10 +425,13 @@ body {
 
     .exp-button {
         margin-top: 20px;
-        width: 250px;
+        width: 280px;
         height: 120px;
     }
-
+    .fact-1-t2 {
+        font-weight: 500;
+        font-size: 16px;
+    }
     .fact-section-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
