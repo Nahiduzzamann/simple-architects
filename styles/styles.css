@@ -262,3 +262,19 @@ body {
     color: #727272;
     margin: 0;
 }
+
+.sponspors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponspors-img{
+    display: flex;
+    gap: 154px;
+}
+.sponspors-descriptins{
+    width: 542px;
+}
+.sponspors-descriptins-t1{
+    text-align: center;
+}
